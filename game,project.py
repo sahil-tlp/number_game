@@ -7,7 +7,7 @@ i=1
 for i in range(0,6):
     num=int(input("enter a number\n"))
     if i==5:    
-        print("hard luck, you attempt your  all five chances ,the selected",comp,"is the number") 
+        print("Hard luck, You attempt your  all five chances ,the selected",comp,"is the number") 
     elif num<comp:
         print("sorry, your number is low ,take another try")
     elif num>comp:
